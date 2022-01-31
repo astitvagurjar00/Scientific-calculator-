@@ -1,0 +1,122 @@
+
+/* Default settings for calculator*/
+*{
+    background-color: aliceblue;
+    text-align: center;
+    margin: auto;
+    padding: 0px;
+}
+
+/*container class for whole calculator*/
+.container{
+    display: inline-block;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+/*table alignment*/
+table{
+    margin: auto;
+}
+
+/*Display settings*/
+#screen{
+    font-size: 50px;
+    width: 375px;
+    outline: none;
+    border: none;
+    text-align: end;
+    margin-bottom: 30px;
+}
+
+/*All buttons alignment*/
+button{
+    font-size: 16px;
+    width: 80px;
+    height: 50px;
+    background-color: aliceblue;
+    border: none;
+}
+
+/*Hover background color*/
+button:hover{
+    background-color: lightblue;
+}
+
+.number:hover, #btn:hover{
+    background-color: lightblue;
+}
+
+/*Equals button settings*/
+#equalsButton{
+    background-color: #5e90dba1; 
+}
+
+/*Heading classifications*/
+h1{
+    margin-bottom: 60px;
+    background-color: antiquewhite;
+    padding: 15px;
+}
+
+/* making numbers bold */
+.number{
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    height: 50px;
+    width: 80px;
+}
+
+/* making top buttons faded*/
+.numberFaded{
+    opacity: 0.3;
+    font-weight: bold;
+}
+
+#func {
+    border: none;
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+#trigno{
+    border: none;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.dropdownList{
+   text-align: start;
+   
+}
+
+#dropdownMenu2{
+    color: black;
+    background-color: white;
+    border: none;
+    padding: 0px;
+    margin-left: 5px;
+
+}
+
+#btn{
+    font-size: 16px;
+    border: none;
+    height: 50px;
+    width: 80px;
+}
+
+#trignoImg,#funcImg{
+    width: 20px;
+    height: 20px;
+}
+
+.display{
+    height: 60px;
+    text-align: end;
+    font-size: 50px;
+    width: 390px;
+    border: none;
+}
